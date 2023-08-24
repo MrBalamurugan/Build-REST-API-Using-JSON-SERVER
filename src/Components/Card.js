@@ -48,11 +48,11 @@ const Card = () => {
           </ul>
         ) : (
           <h3>
-            <div class="d-flex justify-content-center">
-              <div class="spinner-border" role="status">
-             
-              </div>
-            </div>
+                <div class="text-center" style={{position: "fixed", display: "block", top: "50%", right: "50%"}}>
+            <div class="spinner-border" role="status">
+             <span class="visually-hidden">Loading...</span>
+          </div>
+          </div>
           </h3>
         )}
       </div>
